@@ -1,0 +1,36 @@
+# --- Web Framework ---
+fastapi
+uvicorn[standard]
+
+# --- Database + ORM ---
+SQLAlchemy>=2.0
+psycopg[binary]
+pgvector
+
+# --- Migrations (optional but recommended) ---
+alembic
+
+# --- Background Jobs ---
+APScheduler
+
+# --- Data + Parsing ---
+feedparser
+python-dateutil
+
+# --- NLP / AI ---
+openai
+tiktoken
+numpy
+scikit-learn
+
+# --- Utilities ---
+pydantic
+python-dotenv
+requests
+
+spacy
+yake
+vader
+
+bs4
+nltk

@@ -1,0 +1,292 @@
+{
+  "sources": [
+    {
+      "name": "European Parliament - Top Stories",
+      "country_code": "EU",
+      "url": "https://www.europarl.europa.eu/rss/doc/top-stories/en.xml",
+      "is_state_affiliated": true
+    },
+    {
+      "name": "Spiegel",
+      "country_code": "EU",
+      "url": "https://www.spiegel.de/international/index.rss",
+      "is_state_affiliated": false
+    },
+    {
+      "name": "New York Times - World News",
+      "country_code": "USA",
+      "url": "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+      "is_state_affiliated": false
+    },
+    {
+      "name": "Defence Blog",
+      "country_code": "USA",
+      "url": "https://defence-blog.com/feed/",
+      "is_state_affiliated": false
+    },
+    {
+      "name": "The Independent",
+      "country_code": "EU",
+      "url": "http://www.independent.co.uk/news/world/rss",
+      "is_state_affiliated": false
+    },
+    {
+      "name": "National Public Radio (NPR)",
+      "country_code": "USA",
+      "url": "https://feeds.npr.org/1004/rss.xml",
+      "is_state_affiliated": false
+    },
+    {
+      "name": "TIME",
+      "country_code": "USA",
+      "url": "http://feeds2.feedburner.com/time/business",
+      "is_state_affiliated": false
+    },
+    {
+      "name": "Raw Story",
+      "country_code": "USA",
+      "url": "https://www.rawstory.com/feeds/world.rss",
+      "is_state_affiliated": false
+    },
+    {
+      "name": "The Washington Times",
+      "country_code": "USA",
+      "url": "https://www.washingtontimes.com/rss/headlines/news",
+      "is_state_affiliated": false
+    },
+    {
+      "name": "France24",
+      "country_code": "EU",
+      "url": "https://www.france24.com/en/rss",
+      "is_state_affiliated": false
+    },
+    {
+      "name": "Fox News",
+      "country_code": "USA",
+      "url": "https://moxie.foxnews.com/google-publisher/latest.xml",
+      "is_state_affiliated": false
+    },
+    {
+      "name": "National Broadcasting Corporation (NBC)",
+      "country_code": "USA",
+      "url": "https://feeds.nbcnews.com/nbcnews/public/news",
+      "is_state_affiliated": false
+    },
+    {
+      "name": "China Digital Times",
+      "country_code": "CHN",
+      "url": "https://chinadigitaltimes.net/feed/",
+      "is_state_affiliated": false
+    },
+    {
+      "name": "ChinaFile",
+      "country_code": "CHN",
+      "url": "https://feeds.feedburner.com/chinafile/All",
+      "is_state_affiliated": false
+    },
+    {
+      "name": "Beijing Bulletin",
+      "country_code": "CHN",
+      "url": "https://feeds.beijingbulletin.com/rss/55582c89cb296d4c",
+      "is_state_affiliated": false
+    },
+    {
+      "name": "The Russian Government",
+      "country_code": "RUS",
+      "url": "http://government.ru/en/all/rss/",
+      "is_state_affiliated": true
+    },
+    {
+      "name": "Russia in Global Affairs",
+      "country_code": "RUS",
+      "url": "https://eng.globalaffairs.ru/feed/",
+      "is_state_affiliated": false
+    },
+    {
+      "name": "English Russia",
+      "country_code": "RUS",
+      "url": "https://englishrussia.com/feed/",
+      "is_state_affiliated": false
+    },
+    {
+      "name": "Mehr News Agency",
+      "country_code": "IRN",
+      "url": "https://en.mehrnews.com/rss",
+      "is_state_affiliated": true
+    },
+    {
+      "name": "Tehran Times",
+      "country_code": "IRN",
+      "url": "https://www.tehrantimes.com/rss",
+      "is_state_affiliated": true
+    },
+    {
+      "name": "Iran News Daily",
+      "country_code": "IRN",
+      "url": "https://irannewsdaily.com/feed/",
+      "is_state_affiliated": false
+    },
+    {
+      "name": "Iran Times",
+      "country_code": "IRN",
+      "url": "https://iran-times.com/feed/",
+      "is_state_affiliated": false
+    },
+    {
+      "name": "North Korean Times",
+      "country_code": "PRK",
+      "url": "https://feeds.northkoreatimes.com/rss/08aysdf7tga9s7f7",
+      "is_state_affiliated": false
+    },
+    {
+      "name": "Daily NK English",
+      "country_code": "PRK",
+      "url": "https://www.dailynk.com/english/feed/",
+      "is_state_affiliated": false
+    },
+    {
+      "name": "North Korea Tech",
+      "country_code": "PRK",
+      "url": "https://www.northkoreatech.org/feed/",
+      "is_state_affiliated": false
+    },
+    {
+      "name": "Euractiv",
+      "country_code": "EU",
+      "url": "https://www.euractiv.com/?feed=mcfeed",
+      "is_state_affiliated": false
+    },
+    {
+      "name": "Euronews",
+      "country_code": "EU",
+      "url": "https://feeds.feedburner.com/euronews/en/home/",
+      "is_state_affiliated": true
+    },
+    {
+      "name": "Radio Free Europe",
+      "country_code": "EU",
+      "url": "https://www.rferl.org/api/",
+      "is_state_affiliated": true
+    },
+    {
+      "name": "European Newsroom",
+      "country_code": "EU",
+      "url": "https://europeannewsroom.com/feed/",
+      "is_state_affiliated": false
+    },
+    {
+      "name": "Washington Post - World",
+      "country_code": "USA",
+      "url": "https://feeds.washingtonpost.com/rss/world",
+      "is_state_affiliated": false
+    },
+    {
+      "name": "CNN - World",
+      "country_code": "USA",
+      "url": "http://rss.cnn.com/rss/edition_world.rss",
+      "is_state_affiliated": false
+    },
+    {
+      "name": "Associated Press - World",
+      "country_code": "USA",
+      "url": "https://apnews.com/hub/apf-intlnews?output=rss",
+      "is_state_affiliated": false
+    },
+    {
+      "name": "NPR - World News",
+      "country_code": "USA",
+      "url": "https://feeds.npr.org/1004/rss.xml",
+      "is_state_affiliated": false
+    },
+    {
+      "name": "China Daily - World",
+      "country_code": "CHN",
+      "url": "https://www.chinadaily.com.cn/rss/world_rss.xml",
+      "is_state_affiliated": true
+    },
+    {
+      "name": "South China Morning Post - China",
+      "country_code": "CHN",
+      "url": "https://www.scmp.com/rss/91/feed",
+      "is_state_affiliated": false
+    },
+    {
+      "name": "TASS - World News",
+      "country_code": "RUS",
+      "url": "https://tass.com/rss/v2.xml?utm_source=copilot.com",
+      "is_state_affiliated": true
+    },
+    {
+      "name": "Russia Today - Daily news",
+      "country_code": "RUS",
+      "url": "https://www.rt.com/rss/",
+      "is_state_affiliated": true
+    },
+    {
+      "name": "NK News - Latest",
+      "country_code": "PRK",
+      "url": "https://www.nknews.org/feed/",
+      "is_state_affiliated": false
+    },
+    {
+      "name": "38 North - Analysis",
+      "country_code": "PRK",
+      "url": "https://www.38north.org/feed/",
+      "is_state_affiliated": false
+    },
+    {
+      "name": "VOA News - World",
+      "country_code": "USA",
+      "url": "https://www.voanews.com/api/zqboml-vomx-tpeivmy",
+      "is_state_affiliated": true
+    },
+    {
+      "name": "VOA News - USA",
+      "country_code": "USA",
+      "url": "https://www.voanews.com/api/zmjuqtl-vomx-tpey_jqq",
+      "is_state_affiliated": true
+    },
+    {
+      "name": "VOA News - Europe",
+      "country_code": "USA",
+      "url": "https://www.voanews.com/api/zvgmqil-vomx-tpeumvqm",
+      "is_state_affiliated": true
+    },
+    {
+      "name": "VOA News - Middle East",
+      "country_code": "USA",
+      "url": "https://www.voanews.com/api/zrbopl-vomx-tpeovm_",
+      "is_state_affiliated": true
+    },
+    {
+      "name": "VOA News - Africa",
+      "country_code": "USA",
+      "url": "https://www.voanews.com/api/zt_rqyl-vomx-tpekboq_",
+      "is_state_affiliated": true
+    },
+    {
+      "name": "VOA News - Asia",
+      "country_code": "USA",
+      "url": "https://www.voanews.com/api/zjbovl-vomx-tpebvmr",
+      "is_state_affiliated": true
+    },
+    {
+      "name": "VOA News - Latin America",
+      "country_code": "USA",
+      "url": "https://www.voanews.com/api/z_-mqyl-vomx-tpevyvqv",
+      "is_state_affiliated": true
+    },
+    {
+      "name": "VOA News - Global",
+      "country_code": "USA",
+      "url": "https://www.voanews.com/api/zyboql-vomx-tpetvmi",
+      "is_state_affiliated": true
+    },
+    {
+      "name": "Xinhua - World News",
+      "country_code": "CHN",
+      "url": "http://www.xinhuanet.com/english/rss/worldrss.xml",
+      "is_state_affiliated": true
+    }
+  ]
+}

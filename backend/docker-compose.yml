@@ -1,0 +1,37 @@
+services:
+  influence-watch-db:
+    image: ankane/pgvector:latest
+    container_name: influence_watch_db
+    env_file: .env
+    ports:
+      - "5434:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    volumes:
+      - influence_watch_pgdata:/var/lib/postgresql/data
+      - ./shared/db/init.sql:/docker-entrypoint-initdb.d/init.sql
+
+  mcp-server:
+    build:
+      context: .
+      dockerfile: ./mcp/Dockerfile
+    env_file: .env
+    ports:
+      - "9000:9000"
+
+  main:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    env_file: .env
+    ports:
+      - "8000:8000"
+    depends_on: 
+      influence-watch-db:
+        condition: service_healthy
+
+volumes:
+  influence_watch_pgdata:
