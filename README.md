@@ -8,6 +8,9 @@ The goal is to provide an early‑warning capability for information manipulatio
 
 This project is intentionally scoped as a local proof‑of‑concept. It focuses on the core agent‑centric intelligence workflow (ingestion → clustering → signal extraction → anomaly detection → traceable, agent‑generated brief) rather than production concerns like distributed ingestion, cloud deployment, or large‑scale orchestration.
 
+
+<img src="https://github.com/user-attachments/assets/59429aa1-fbaf-4a81-a2e4-ada25f905781" />
+
 ## Why Narrative Divergence Matters for Intelligence
 Modern influence operations rarely announce themselves. They emerge as subtle shifts in how state‑aligned media outlets:
 
