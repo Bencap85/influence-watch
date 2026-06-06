@@ -74,18 +74,14 @@ The MCP Server provides structured tools to the AI agent used in gathering data 
 
 A list of narrative influence techniques currently supported by the system and how they are detected
 
-1. Strong Divergence From Global Baseline
+1. **Strong Semantic Divergence From Global Baseline**
 
-    A country’s reporting is semantically or sentimentally far from the global average.
+    A country’s reporting is semantically far from the global average.
     
     Signals:
-    - country_embeddings vs global_baseline_embedding
-    - country_sentiment vs global_baseline_sentiment
-    - country_keywords vs global_baseline_keywords
-    - country_entities vs global_baseline_entities
+   - country_embeddings vs global_baseline_embedding
 
-
-2. Rapid Reporting Burst (Temporal Anomaly)
+2. **Rapid Reporting Burst**
 
     A country publishes an unusually high number of articles about an event in a short window.
 
@@ -95,8 +91,7 @@ A list of narrative influence techniques currently supported by the system and h
     - Per‑country article counts
     - event.num_articles
 
-
-3. Strong Sentiment Divergence
+3. **Strong Sentiment Divergence**
 
     A country’s sentiment is significantly more positive or negative than the global baseline.
 
@@ -105,16 +100,16 @@ A list of narrative influence techniques currently supported by the system and h
     - global_baseline_sentiment
     - Sentiment distribution across articles
 
-4. High Intra‑Country Semantic Similarity (Possible Coordination)
+4. **High Intra‑Country Semantic Similarity**
 
-    Articles from the same country are unusually similar to each other.
+    Articles from the same country/bloc are unusually similar to each other.
 
     Signals:
     - Intra‑country embedding similarity
     - country_embeddings
     - Distance to event centroid
 
-5. Keyword or Entity Convergence (Narrative Steering)
+5. **Keyword or Entity Convergence (Narrative Steering)**
 
     A country repeatedly uses the same unusual keywords or entities not seen globally.
 
@@ -123,7 +118,7 @@ A list of narrative influence techniques currently supported by the system and h
     - country_entities vs global_baseline_entities
     - Keyword/entity frequency spikes
 
-6. Asymmetric Coverage (Selective Amplification)
+6. **Asymmetric Coverage (Selective Amplification)**
 
     A country heavily reports on an event that others barely mention.
 
@@ -132,7 +127,7 @@ A list of narrative influence techniques currently supported by the system and h
     - event.countries
     - event.num_articles
 
-7. Narrative Reversal or Contradiction
+7. **Narrative Reversal or Contradiction**
 
     A country frames the event in the opposite direction of the global consensus.
 
@@ -142,14 +137,15 @@ A list of narrative influence techniques currently supported by the system and h
     - Entity sentiment differences
     - Embedding directionality
 
-8. Early Origin Indicator (Narrative Seeding)
+8. **Early Origin Indicator**
 
-    A country reports significantly earlier than others.
+    A country reports an event significantly earlier than others.
 
     Signals:
-    - Earliest per‑country published_at
-    - event.first_seen_at
-    - Time deltas between countries
+   
+        - Earliest per‑country published_at
+        - event.first_seen_at
+        - Time deltas between countries
 
 ## Getting Started
 Influence Watch runs locally using Docker for backend services and Node for the frontend.
