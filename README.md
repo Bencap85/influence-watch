@@ -2,14 +2,13 @@
 
 Influence Watch is a research prototype for exploring narrative divergence across international media ecosystems. It ingests global news, clusters articles into real‑world events, and analyzes how different geopolitical blocs describe, frame, and prioritize those events. The system detects anomalies such as narrative drift, coordinated messaging, reporting bursts, sentiment manipulation, and asymmetric coverage.
 
+<img src="https://github.com/user-attachments/assets/59429aa1-fbaf-4a81-a2e4-ada25f905781" />
+
 Influence Watch is built around an AI agent that operates over structured, tool‑call–ready data. A dedicated MCP layer exposes events, detections, articles, and analytical signals through controlled, schema‑validated tools, enabling the agent to generate traceable intelligence briefs where every claim is grounded in underlying evidence.
 
 The goal is to provide an early‑warning capability for information manipulation, allowing analysts to understand not just what is being reported, but how, when, and why narratives differ across geopolitical blocs, and to be able to inspect the agent’s reasoning through explicit attribution.
 
 This project is intentionally scoped as a local proof‑of‑concept. It focuses on the core agent‑centric intelligence workflow (ingestion → clustering → signal extraction → anomaly detection → traceable, agent‑generated brief) rather than production concerns like distributed ingestion, cloud deployment, or large‑scale orchestration.
-
-
-<img src="https://github.com/user-attachments/assets/59429aa1-fbaf-4a81-a2e4-ada25f905781" />
 
 ## Why Narrative Divergence Matters for Intelligence
 Modern influence operations rarely announce themselves. They emerge as subtle shifts in how state‑aligned media outlets:
